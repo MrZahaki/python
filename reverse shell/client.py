@@ -1,7 +1,9 @@
+# the name of allah
+# designed by MrZahaki
+# !/usr/bin/env python3.8
 import socket
 import os
 import subprocess
-import tqdm
 
 
 class DeleteError(Exception):
