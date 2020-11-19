@@ -28,7 +28,6 @@ class Clipboard:
             for i in range(len(self.functions)):
                 self.threads.append(threading.Thread(target=self.run, daemon=True, args=(len(self.threads),)))
                 self.queue.put(i)
-            print('Initialization completed!')
 
         except:
             print('Initialization error!')
