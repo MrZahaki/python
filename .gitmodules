@@ -1,3 +1,4 @@
 [submodule "Speaker-Recognition"]
 	path = Speaker-Recognition
 	url = https://github.com/MrZahaki/Speaker-Recognition.git
+	branch = origin/main
